@@ -14,5 +14,9 @@ b = [2, 'Aarnav' , 9 ,89]
 print(a)
 print(b)
 
+def add_record():
+     f = open('Student.csv','a',newline='')
+     record = []
+     rs = csv.writer(f)
 
 
